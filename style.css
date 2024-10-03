@@ -1,0 +1,76 @@
+h1 {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Alinha na vertical */
+}
+
+.topo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    text-align: center;
+    width: 900px;  
+    height: 150px;  
+}
+
+main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atributos {
+    text-align: center;
+}
+
+.bio {
+    text-align: center;
+}
+
+.imagem img {
+    width: 80%;
+    margin: 10px;
+}
+
+.vdv {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+
+.vdv div{
+    margin: 15px;
+}
+
+.central {
+    margin: 20px;
+    text-align: center;
+}
+
+.embaixo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.embaixo div {
+    margin: 20px;
+}
+
+html {
+    background-color: #000;
+    margin: 0px auto;
+    
+}
+
+body {
+    background-color: #fff;
+    width: 60%;
+    margin: 0px auto;
+    padding-top: 10px;
+}
